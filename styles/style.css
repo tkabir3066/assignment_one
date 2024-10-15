@@ -298,3 +298,91 @@ a {
   width: 144px;
   height: 88px;
 }
+
+/* contact part */
+
+#contact {
+  max-width: 1140px;
+  height: 313px;
+  background-image: url(../assets/handshake.jpg),
+    radial-gradient(circle, #494949 0%, #313131 100%);
+  background-blend-mode: overlay;
+
+  background-size: cover;
+  background-position: center;
+  margin: 0px auto;
+  margin-bottom: 80px;
+  border-radius: 16px;
+  padding: 64px 48px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 200px;
+}
+
+.support-title {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.support-description {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.support-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="text"] {
+  width: 548px;
+  height: 57px;
+  padding: 20px;
+  color: #0d1321;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: "Azeret Mono", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+input[type="submit"] {
+  width: 120px;
+  height: 57px;
+  color: #0d1321;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Azeret Mono", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* footer part */
+
+footer {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0px;
+}
+
+.logo-footer {
+  display: flex;
+  gap: 24px;
+}
